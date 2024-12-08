@@ -1,4 +1,4 @@
-export { useWebSocket as default } from './lib/use-websocket';
+import { useWebSocket } from './lib/use-websocket';
 
 export { SendMessage, Options } from './lib/types';
 
@@ -9,3 +9,5 @@ export { ReadyState } from './lib/constants';
 export { useEventSource } from './lib/use-event-source';
 
 export { resetGlobalState } from './lib/util';
+
+export default useWebSocket;
